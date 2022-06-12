@@ -112,7 +112,7 @@ RB4 = Conv2D(16, (3, 3), kernel_initializer='glorot_uniform', activation='relu',
 RB4 = Conv2D(16, (1, 1), kernel_initializer='glorot_uniform', activation='relu', padding='same')(RB4)
 
 # LAST LAYER
-LAST = Conv2D(self.channels, (3, 3), kernel_initializer='glorot_uniform', activation='relu', padding='same')(RB4)
+LAST = Conv2D(1, (3, 3), kernel_initializer='glorot_uniform', activation='relu', padding='same')(RB4)
 
 model = Model(main_input, outputs=LAST)
 model.compile(Adam(lrate, decay), loss=losses.mean_squared_error)
