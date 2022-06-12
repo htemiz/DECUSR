@@ -24,5 +24,6 @@ For program manual please refer to:
 Just a basic instructions to run this model for training and test with DeepSR:
 	python.exe -m DeepSR.DeepSR --modelfile <full path of this file > --train --test .... <other command arguments>
 
+	
 To install DeepSR:
 	pip install DeepSR
