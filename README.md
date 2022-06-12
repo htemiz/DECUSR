@@ -31,3 +31,9 @@ Just a basic instructions to run this model for training and test with DeepSR:
 To install DeepSR:
 	
 	pip install DeepSR
+
+PLese note that, software live and change like humans, therefore, the program may not work on your computing environment 
+due to possible changes in the dependent software packages. You can run the DeepSR with exact versions of dependent packages
+as instructued in the program manual.
+
+New Releases to be issued soon...
