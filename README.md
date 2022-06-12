@@ -26,4 +26,5 @@ Just a basic instructions to run this model for training and test with DeepSR:
 
 	
 To install DeepSR:
+	
 	pip install DeepSR
