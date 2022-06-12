@@ -1,4 +1,12 @@
 ﻿
+"""   
+This is the definition file of DECUSR model for ultrasound super resolution.
+Please refer to the article by Hakan Temiz and Hasan Şakir Bilge:
+	https://ieeexplore.ieee.org/abstract/document/9078131
+
+"
+
+
 from keras import losses
 from keras.models import Model
 from keras.layers import Input,  concatenate
@@ -22,6 +30,9 @@ SCALE 8:
         stride=1, inputsize=4
 
 """
+# These dictionary is for running DECUSR with DeepSR.
+# If you implement your own code to run the model, you can neglect this.
+# However, I suppose it will give you some ideas on how to set hyper-parameters.
 
 settings = \
 {
