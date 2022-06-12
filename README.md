@@ -24,6 +24,7 @@ For program manual please refer to:
 	https://github.com/htemiz/DeepSR/blob/master/DeepSR/docs/DeepSR%20Manual.pdf
 
 Just a basic instructions to run this model for training and test with DeepSR:
+	
 	python.exe -m DeepSR.DeepSR --modelfile <full path of this file > --train --test .... <other command arguments>
 
 	
