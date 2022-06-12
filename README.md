@@ -6,8 +6,10 @@ Please refer to the article by Hakan Temiz and Hasan Şakir Bilge:
   
 The four trained models (.h5 files) of DECUSR for scales 2, 3, 4 and 8.
 
-.py files contain the definition of DECUSR model. Decusr.py includes a generic definition,
-whereas Decusr_for_DeepSR.py provides the definition tailored to use DECUSR with DeepSR,
+.py files contain the definition of DECUSR model. Decusr.py includes a generic, definition.
+You can construct the DECUSR with the code and instructions in the file. 
+
+Decusr_for_DeepSR.py provides the definition tailored to use DECUSR with DeepSR,
 which eases and automates the super-resolution-specific processes (training, test, augmenting,
 normalization, etc.), for super-resolution.
 
