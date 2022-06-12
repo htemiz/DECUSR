@@ -26,7 +26,7 @@ SCALE 8:
 settings = \
 {
 "activation": "relu",
-'augment':[], # must be any or all lof [90,180,270, 'flipud', 'fliplr', 'flipudlr' ]
+'augment':[], # must be any or all of [90,180,270, 'flipud', 'fliplr', 'flipudlr' ]
 'backend': 'tensorflow',
 'batchsize':128,
 'channels':1,
@@ -56,7 +56,7 @@ settings = \
 'scale':2,
 'seed': 19,
 'shuffle' : True,
-'stride':5, # adımın 72 nin 1/3 ü olmasını istiyoruz. yani 24. 4 ölçek için 6 adım çıkışta 24 eder.
+'stride':5, # to have approx. same number of patches for each scale, use 5 ,4 ,3 ,1 for scales 2, 3, 4 and 8, respectively.
 'target_channels': 1,
 'target_cmode' : 'RGB',
 'testpath': [r'D:\test'],
