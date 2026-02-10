@@ -32,7 +32,7 @@ To install DeepSR:
 	
 	pip install DeepSR
 
-PLese note that, software live and change like humans, therefore, the program may not work on your computing environment 
+Please note that software lives and changes like humans; therefore, the program may not work on your computing environment due to possible changes in the dependent software packages. You can run DeepSR with exact versions of dependent packages as instructed in the program manual.
 due to possible changes in the dependent software packages. You can run the DeepSR with exact versions of dependent packages
 as instructued in the program manual.
 
